@@ -14,3 +14,4 @@
 
 如上图所示，大概需要7分6秒可以回滚完。
 
+参考原文：https://www.mydbops.com/blog/how-to-estimate-time-for-rollback-in-a-cancelled-transaction-mysql/
