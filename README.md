@@ -3,6 +3,8 @@
 当你<ctrl+c>或者kill掉一个大事务时，你想知道这个事务需要多久才能回滚完，那么你可以利用RollbackTimeCalc函数得到。
 
 - 导入函数：
+- https://github.com/hcymysql/RollbackTimeCalc/blob/main/RollbackTimeCalc.sql
+
 ```shell> mysql -uroot -p123456 < RollbackTimeCalc.sql```
 
 - 通过show processlist得到线程ID
