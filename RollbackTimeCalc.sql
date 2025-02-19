@@ -25,7 +25,7 @@ BEGIN
 
       SELECT trx_rows_modified INTO RollbackPendingRows from information_schema.innodb_trx where trx_mysql_thread_id = processID and trx_state = 'ROLLING BACK';
 
-      RETURN(CONCAT('Estimation Time of Rollback : ', Result, ' Pending rows to rollback ', RollbackPendingRows));
+      RETURN(CONCAT('回滚估计时间 : ', Result, ' 待回滚行数 ', RollbackPendingRows));
 
 END$$
 
