@@ -15,5 +15,3 @@
 ![image](https://github.com/hcymysql/RollbackTimeCalc/assets/19261879/d2c1f59f-a03c-48f1-81fe-2343943c3334)
 
 如上图所示，大概需要7分6秒可以回滚完。
-
-参考原文：https://www.mydbops.com/blog/how-to-estimate-time-for-rollback-in-a-cancelled-transaction-mysql/
